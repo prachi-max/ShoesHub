@@ -1,0 +1,345 @@
+
+
+#faq-section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+#faq-section h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.faq {
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+    background-color: #e7ace3;
+    color: #fff;
+    font-size: 18px;
+}
+
+.faq-answer {
+    display: none;
+    padding: 15px;
+    background-color: #fef2f2;
+    color: #333;
+}
+
+.faq-toggle {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.faq-question.active + .faq-answer {
+    display: block;
+}
+
+
+      /* footer */
+
+.footer-subscribe {
+    text-align: center;
+    background-color: #1b1b1b;
+    padding: 20px;
+    color: #ffffff;
+    margin-top: 5%;
+  }
+  
+  .footer-subscribe h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .footer-subscribe p {
+    margin-bottom: 15px;
+    font-size: 1em;
+  }
+  
+  .subscribe-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+   
+  }
+  
+  .subscribe-container input {
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: none;
+    width: 250px;
+  }
+  
+  .subscribe-container button {
+    padding: 10px 20px;
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .subscribe-container button:hover {
+    background-color: #4a00b3;
+  }
+  
+  #subscription-message {
+    margin-top: 15px;
+    font-size: 0.9em;
+    color: #00ff00;
+  }
+  
+
+.footer{
+    background:#000; /*black;*/
+    color: #8a8a8a;
+    font-size: 14px;
+    padding:60px 0 20px;
+}
+
+.footer p{
+    color: #8a8a8a;
+}
+
+.footer h3{
+    color:#fff;
+    margin-bottom: 20px;
+    margin-left: 40%;
+}
+.footer-col-1, .footer-col-2,.footer-col-3,.footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.footer-col-1{
+    flex-basis: 30%;
+    
+}
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+.footer-col-2 img{
+    width: 190px;
+    margin-bottom: 20px;
+    margin-left: -5%;
+}
+
+
+ .footer-col-3,.footer-col-4{
+    margin-bottom: 10px; /* Adds space between each list item */
+     font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+ 
+} 
+ul{
+    list-style-type: none;
+  
+}
+
+.footer-col-3 li{
+    margin-bottom: 10px; /* Adds space between each list item */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #8a8a8a;
+    display: block;
+    margin-left: 40%;
+}
+
+.footer-col-4 li{
+    margin-bottom: 10px; /* Adds space between each list item */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #8a8a8a;
+    display: block;
+    margin-left: 40%;
+}
+.app-logo{
+    margin-top: 20px;
+}
+.app-logo img{
+    width: 140px;
+    margin-left: -1%;
+}
+
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+.copyright{
+    text-align: center;
+    margin-right: 8%;
+}
+
+.menu-icon{
+    width: 28px;
+    margin-left: 20px;  
+    display:none;
+}
+
+
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .footer h3 {
+        margin-left: 0;
+    }
+
+    .footer-col-3 li,
+    .footer-col-4 li {
+        margin-left: 0;
+    }
+
+    .footer-col-2 img {
+        margin-left: 0;
+    }
+
+    .copyright {
+        margin-right: 0;
+    }
+}
+
+/* Media Queries for Extra Small Screens */
+@media (max-width: 480px) {
+    .footer {
+        font-size: 12px;
+        padding: 40px 10px 10px;
+    }
+
+    .footer-subscribe h3 {
+        font-size: 1.2em;
+    }
+
+    .subscribe-container input {
+        width: 100%;
+    }
+
+    .subscribe-container {
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .footer h3 {
+        font-size: 1.4em;
+    }
+}
+
+
+                                                             /* .whatsapp-float */
+
+/* Style for WhatsApp floating button */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    padding: 10px;
+    margin-bottom: 2%;
+}
+
+/* Style for Scroll Up Button */
+.scroll-up-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(156, 49, 164);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    display: none; /* Initially hidden */
+    z-index: 1000;
+}
+
+.scroll-up-btn:hover {
+    background-color: rgb(171, 71, 190);
+}
+
+                                            /* offers *
+
+/* Video */
+.carousel-container {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  .video-section1 {
+    position: relative;
+    width: 100%; /* Adjust as needed */
+    height: 400px; /* Set your preferred height */
+    overflow: hidden;
+    border-radius: -40%;
+  }
+  
+  #background-video {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 100%;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: -1; /* Send video to the background */
+    object-fit: cover; /* Ensure the video covers the section */
+    border-radius: -40%;
+  }
+  
+
+
+/* Hide arrows on small screens */
+@media (max-width: 768px) {
+    .carousel-arrow {
+        display: none;
+    }
+}
+
+/* Arrows */
+.carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.carousel-arrow.left {
+    left: 10px;
+}
+
+.carousel-arrow.right {
+    right: 10px;
+}
+
+.carousel-arrow:hover {
+    background-color: #ddd;
+}

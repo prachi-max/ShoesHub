@@ -1,0 +1,114 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 3%;
+    position: relative;
+    top:5vh;
+}
+
+h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 3vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0;
+    white-space: nowrap; /* Prevents text from wrapping */
+}
+
+/* .sort-options {
+    text-align: right;
+    margin: 0; /* Remove bottom margin */
+
+.container{
+    margin-left: 10%;
+}
+.sort-options {
+    position: absolute; /* Allows positioning within the container */
+    top: 20px; /* Distance from the top */
+    left: 20px; /* Distance from the right */
+    display: flex; /* Flexbox for aligning elements */
+    align-items: center; /* Center items vertically */
+    background-color: #f9f9f9; /* Optional: background color for better visibility */
+    padding: 10px; /* Optional: padding around the sort options */
+    border-radius: 5px; /* Optional: rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+}
+
+.sort-options span {
+    margin-right: 10px; /* Space between label and dropdown */
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four equal columns */
+    gap: 20px;
+    padding-top: 3%;
+    background-color: aliceblue;
+    justify-items: center;
+}
+
+.product-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 10%;
+    margin-right: 10%;
+}
+
+.product-item img {
+    width: 100%;
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+.product-info h3 {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.price {
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+.old-price {
+    text-decoration: line-through;
+    font-weight: normal;
+    color: #999;
+}
+
+.discount {
+    color: #27ae60;
+}
+
+.rating {
+    font-size: 0.9em;
+    color: #f39c12;
+}
+
+.collection-card .button a {
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .product-grid {
+        grid-template-columns: 1fr 1fr; /* Two columns for smaller screens */
+    }
+}
+
